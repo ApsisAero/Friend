@@ -1,4 +1,4 @@
-update=Monday, November 30, 2015 'AMt' 11:31:59 AM
+update=Monday, November 30, 2015 'PMt' 05:43:32 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -56,5 +58,4 @@ LibName26=opto
 LibName27=atmel
 LibName28=contrib
 LibName29=valves
-[general]
-version=1
+LibName30=/Users/joshuagruenstein/Downloads/mpu-6050
