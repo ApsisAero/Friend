@@ -1,0 +1,269 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L ATMEGA32U4-A U?
+U 1 1 565C7A6A
+P 4500 3100
+F 0 "U?" H 3550 4800 40  0000 C CNN
+F 1 "ATMEGA32U4-A" H 5200 1600 40  0000 C CNN
+F 2 "TQFP44" H 4500 3100 35  0000 C CIN
+F 3 "" H 5600 4200 60  0000 C CNN
+	1    4500 3100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Crystal 16MHz
+U 1 1 565C7AD2
+P 3100 2050
+F 0 "16MHz" H 3100 2200 50  0000 C CNN
+F 1 "Crystal" H 3100 1900 50  0000 C CNN
+F 2 "" H 3100 2050 60  0000 C CNN
+F 3 "" H 3100 2050 60  0000 C CNN
+	1    3100 2050
+	0    1    1    0   
+$EndComp
+$Comp
+L C 18pF
+U 1 1 565C7BB2
+P 2650 2200
+F 0 "18pF" H 2675 2300 50  0000 L CNN
+F 1 "C" H 2675 2100 50  0000 L CNN
+F 2 "" H 2688 2050 30  0000 C CNN
+F 3 "" H 2650 2200 60  0000 C CNN
+	1    2650 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L C 18pF
+U 1 1 565C7BDB
+P 2650 1900
+F 0 "18pF" H 2675 2000 50  0000 L CNN
+F 1 "C" H 2675 1800 50  0000 L CNN
+F 2 "" H 2688 1750 30  0000 C CNN
+F 3 "" H 2650 1900 60  0000 C CNN
+	1    2650 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 565C7CC2
+P 2400 1900
+F 0 "#PWR?" H 2400 1650 50  0001 C CNN
+F 1 "GND" H 2400 1750 50  0000 C CNN
+F 2 "" H 2400 1900 60  0000 C CNN
+F 3 "" H 2400 1900 60  0000 C CNN
+	1    2400 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 565C7CE0
+P 2400 2200
+F 0 "#PWR?" H 2400 1950 50  0001 C CNN
+F 1 "GND" H 2400 2050 50  0000 C CNN
+F 2 "" H 2400 2200 60  0000 C CNN
+F 3 "" H 2400 2200 60  0000 C CNN
+	1    2400 2200
+	0    1    1    0   
+$EndComp
+$Comp
+L R 22Ω
+U 1 1 565C7F81
+P 2800 2900
+F 0 "22Ω" V 2880 2900 50  0000 C CNN
+F 1 "R" V 2800 2900 50  0000 C CNN
+F 2 "" V 2730 2900 30  0000 C CNN
+F 3 "" H 2800 2900 30  0000 C CNN
+	1    2800 2900
+	0    1    1    0   
+$EndComp
+$Comp
+L R 22Ω
+U 1 1 565C805E
+P 3100 3000
+F 0 "22Ω" V 3180 3000 50  0000 C CNN
+F 1 "R" V 3100 3000 50  0000 C CNN
+F 2 "" V 3030 3000 30  0000 C CNN
+F 3 "" H 3100 3000 30  0000 C CNN
+	1    3100 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L USB_B P?
+U 1 1 565C823A
+P 2250 2900
+F 0 "P?" H 2450 2700 50  0000 C CNN
+F 1 "USB_B" H 2200 3100 50  0000 C CNN
+F 2 "" V 2200 2800 60  0000 C CNN
+F 3 "" V 2200 2800 60  0000 C CNN
+	1    2250 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L FUSE F?
+U 1 1 565C840E
+P 2900 2750
+F 0 "F?" H 3000 2800 50  0000 C CNN
+F 1 "FUSE" H 2800 2700 50  0000 C CNN
+F 2 "" H 2900 2750 60  0000 C CNN
+F 3 "" H 2900 2750 60  0000 C CNN
+	1    2900 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L +5V #PWR?
+U 1 1 565C854B
+P 3250 2650
+F 0 "#PWR?" H 3250 2500 50  0001 C CNN
+F 1 "+5V" H 3250 2790 50  0000 C CNN
+F 2 "" H 3250 2650 60  0000 C CNN
+F 3 "" H 3250 2650 60  0000 C CNN
+	1    3250 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 565C85E4
+P 2550 2700
+F 0 "#PWR?" H 2550 2450 50  0001 C CNN
+F 1 "GND" H 2550 2550 50  0000 C CNN
+F 2 "" H 2550 2700 60  0000 C CNN
+F 3 "" H 2550 2700 60  0000 C CNN
+	1    2550 2700
+	-1   0    0    1   
+$EndComp
+$Comp
+L C 0.1uF
+U 1 1 565C8766
+P 3000 3950
+F 0 "0.1uF" H 3025 4050 50  0000 L CNN
+F 1 "C" H 3025 3850 50  0000 L CNN
+F 2 "" H 3038 3800 30  0000 C CNN
+F 3 "" H 3000 3950 60  0000 C CNN
+	1    3000 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 565C879B
+P 2700 3950
+F 0 "#PWR?" H 2700 3700 50  0001 C CNN
+F 1 "GND" H 2700 3800 50  0000 C CNN
+F 2 "" H 2700 3950 60  0000 C CNN
+F 3 "" H 2700 3950 60  0000 C CNN
+	1    2700 3950
+	0    1    1    0   
+$EndComp
+$Comp
+L GND #PWR?
+U 1 1 565C89A5
+P 3950 4800
+F 0 "#PWR?" H 3950 4550 50  0001 C CNN
+F 1 "GND" H 3950 4650 50  0000 C CNN
+F 2 "" H 3950 4800 60  0000 C CNN
+F 3 "" H 3950 4800 60  0000 C CNN
+	1    3950 4800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2400 1900 2500 1900
+Wire Wire Line
+	2400 2200 2500 2200
+Wire Wire Line
+	2800 1900 3300 1900
+Wire Wire Line
+	2800 2200 3300 2200
+Wire Wire Line
+	3300 2200 3300 2150
+Wire Wire Line
+	3300 2150 3350 2150
+Connection ~ 3100 2200
+Wire Wire Line
+	3350 1950 3300 1950
+Wire Wire Line
+	3300 1950 3300 1900
+Connection ~ 3100 1900
+Wire Wire Line
+	2950 2900 3350 2900
+Wire Wire Line
+	3250 3000 3350 3000
+Wire Wire Line
+	2950 3000 2550 3000
+Wire Wire Line
+	2550 2900 2650 2900
+Wire Wire Line
+	2550 3100 2600 3100
+Wire Wire Line
+	2600 3100 2600 2750
+Wire Wire Line
+	2600 2750 2650 2750
+Wire Wire Line
+	3150 2750 3350 2750
+Wire Wire Line
+	3250 2750 3250 2650
+Connection ~ 3250 2750
+Wire Wire Line
+	2550 2800 2550 2700
+Wire Wire Line
+	3150 3950 3350 3950
+Wire Wire Line
+	2850 3950 2700 3950
+Wire Wire Line
+	4650 4700 4650 4800
+Wire Wire Line
+	4650 4800 3950 4800
+Wire Wire Line
+	4100 4700 4100 4800
+Connection ~ 4100 4800
+Wire Wire Line
+	4350 4700 4350 4800
+Connection ~ 4350 4800
+Wire Wire Line
+	4450 4700 4450 4800
+Connection ~ 4450 4800
+Wire Wire Line
+	4550 4700 4550 4800
+Connection ~ 4550 4800
+$EndSCHEMATC
