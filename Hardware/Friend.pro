@@ -1,4 +1,4 @@
-update=Monday, November 30, 2015 'PMt' 05:43:32 PM
+update=Monday, November 30, 2015 'PMt' 07:25:01 PM
 version=1
 last_client=kicad
 [pcbnew]
@@ -59,3 +59,4 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=/Users/joshuagruenstein/Downloads/mpu-6050
+LibName31=/Users/joshuagruenstein/Downloads/mpl3115a2
